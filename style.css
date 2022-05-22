@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    height: 400px;  
+    
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    font-size: 24px #F9FAF8;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    list-style: none; 
+
+    
+    height: 50px;
+}
+.paragraph h1{
+    margin: 0px;
+    padding-left: 16px;
+}
+
+p{
+    margin: 0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first{
+    display: flex;
+    gap: 15px;
+}
+input{
+    height:40px;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+.image1{
+    height: 200px;
+    width: 200px;
+    border: 5px;
+    border-style: double;
+    border-radius: 30px;
+}
+.header .content{
+    display: flex;
+    justify-content:center ;
+}
+
+.header .content p{
+    width: 500px;
+    padding: 16px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.body .title{
+    display: flex;
+    justify-content: center ;
+    color: #1f2937;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 30px;
+    
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.items .item{
+    border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width: 320px;
+  justify-content: center;
+  align-items: center;
+  border-color: #3882F6;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.items .item p{
+    margin-top: 10px;
+}
+
+.quote{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5e7eb;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote p{
+     width: 500px;
+     font-style: italic;
+     font-size: 25px;
+}
+
+.quote #quote{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 0;
+}
+
+button{
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer a{
+    color: white;
+}
